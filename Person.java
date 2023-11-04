@@ -1,8 +1,8 @@
 public class Person {
-    private int id;
-    private String name;
-    private int age;
-    private boolean parentPermission;
+     int id;
+     String name;
+     int age;
+     boolean parentPermission;
 
     public Person( String name, int age, boolean parentPermission) {
         this.name = "unknown";

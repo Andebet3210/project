@@ -1,13 +1,13 @@
 public class Person {
      int id;
-     String name;
+     String name="unknown";
      int age;
-     boolean parentPermission;
+     boolean parentPermission=true;
 
     public Person( String name, int age, boolean parentPermission) {
-        this.name = "unknown";
+        this.name =name;
         this.age = age;
-        this.parentPermission = true;
+        this.parentPermission=parentPermission;
     }
 
 

@@ -1,13 +1,13 @@
-public class Person {
-    private int id;
-    private String name;
-    private int age;
-    private boolean parentPermission;
+public class Person implements Nameable {
+    int id;
+    String name="unknown";
+    int age;
+    boolean parentPermission=true;
 
     public Person( String name, int age, boolean parentPermission) {
-        this.name = "unknown";
+        this.name =name;
         this.age = age;
-        this.parentPermission = true;
+        this.parentPermission=parentPermission;
     }
 
 
@@ -47,6 +47,8 @@ public class Person {
             return false;
         }
     }
+    public String getCorrectName(){
+        return name;
+    }
 
 }
-

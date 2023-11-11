@@ -1,3 +1,4 @@
+// this is Student class extends from person
 public class Student extends Person {
     private String classroom;
 

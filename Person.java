@@ -1,3 +1,10 @@
+
+public class Person implements Nameable {
+    int id;
+    String name="unknown";
+    int age;
+    boolean parentPermission=true;
+
 public class Person {
      int id;
      String name="unknown";
@@ -47,6 +54,8 @@ public class Person {
             return false;
         }
     }
+    public String getCorrectName(){
+        return name;
+    }
 
 }
-

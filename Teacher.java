@@ -12,7 +12,5 @@ public class Teacher extends Person {
         return true;
     }
 
-    public String getSpecialization() {
-        return specialization;
-    }
+  
 }

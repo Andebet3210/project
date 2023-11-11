@@ -6,7 +6,6 @@ public class Student extends Person {
         this.classroom = classroom;
     }
 
-    public String getClassroom() {
-        return classroom;
-    }
+  
+    
 }

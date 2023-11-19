@@ -1,18 +1,12 @@
-
 public class Person implements Nameable {
     int id;
+
     String name="unknown";
     int age;
     boolean parentPermission=true;
 
-public class Person {
-     int id;
-     String name="unknown";
-     int age;
-     boolean parentPermission=true;
-
     public Person( String name, int age, boolean parentPermission) {
-        this.name =name;
+         this.name =name;
         this.age = age;
         this.parentPermission=parentPermission;
     }

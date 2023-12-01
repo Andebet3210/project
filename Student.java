@@ -4,7 +4,7 @@
     private String classroom;
 
 
-     public Student(int id, String name, int age, boolean parentPermission, String classroom) {
+     public Student(int id, String name, int age, boolean parentPermission) {
         super( name, age, parentPermission);
         this.classroom = classroom;
     }

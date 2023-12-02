@@ -33,21 +33,7 @@ public class Person implements Nameable {
         this.age = age;
     }
 
-    private boolean of_age() {
-        if (this.age >= 18) {
-            return true;
-        } else {
-            return false;
-        }
-    }
 
-    public boolean can_use_services() {
-        if (of_age() || this.parentPermission) {
-            return true;
-        } else {
-            return false;
-        }
-    }
     public String getCorrectName(){
         return name;
     }

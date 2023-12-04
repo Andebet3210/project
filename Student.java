@@ -6,7 +6,7 @@
 
      public Student(int id, String name, int age, boolean parentPermission) {
         super( name, age, parentPermission);
-        this.classroom = classroom;
+
     }
 
     public String getClassroom() {
@@ -18,6 +18,5 @@
         classroom.addStudent(this);
     }
 
-    public void setClassroom(Classroom classroom) {
-    }
+
 }

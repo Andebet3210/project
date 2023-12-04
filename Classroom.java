@@ -24,6 +24,6 @@ class Classroom {
 
     public void addStudent(Student student) {
         students.add(student);
-        student.setClassroom(this);
+
     }
 }
